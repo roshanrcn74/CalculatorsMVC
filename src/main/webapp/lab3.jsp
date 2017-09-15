@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="stylesheet.css" >
 
-        <title>JSP Page</title>
+        <title></title>
     </head>
     <body>
         <div class="outerdiv">

@@ -11,25 +11,27 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="stylesheet.css">
     
-        <title>Calculator</title>
+        <title></title>
     </head>
     
     <body>
-        <div style="border:thin">
-            <h1>Rectangle Calculator</h1>
-            <img src="images/rectangle.jpeg" border="7" aline="middle">
+        <div class="outerdiv">
+            <div class="innerdiv">
+                <h1>Rectangle Calculator</h1>
+                <img src="images/rectangle.jpeg" border="7" aline="middle">
 
-            <form name="frmLab1" method="POST" action="calculator?calType=Rec">
-                <div style="border:5px;">
-                    <input type="hidden" name="destination" value="lab2">
-                    Enter Rectangle length: <input type="text" name="length" value="0"><br><br>
-                    Enter Rectangle  width: <input type="text" name="width" value="0"><br>
-                <p>Click the <input type="submit" value="Submit"> button to calculate area :</p>
+                <form name="frmLab1" method="POST" action="calculator?calType=Rec">
+                    <div style="border:5px;">
+                        <input type="hidden" name="destination" value="lab2">
+                        Enter Rectangle length: <input type="text" name="length" value="0"><br><br>
+                        Enter Rectangle  width: <input type="text" name="width" value="0"><br>
+                    <p>Click the <input type="submit" value="Submit"> button to calculate area :</p>
 
-                </div>
-            </form>
+                    </div>
+                </form>
 
-            <p> Rectangle Area is : ${recArea}  </p>
+                <p> Rectangle Area is : ${recArea}  </p>
+            </div>
         </div>
     </body>
 </html>
